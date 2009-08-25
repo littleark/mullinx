@@ -5,9 +5,9 @@
 	//$_CONFIG['host'] = "mysql3.000wbhost.com";
 	$_CONFIG['host'] = "localhost";
 
-	$_CONFIG['user'] = ""; //DB USER
-	$_CONFIG['pass'] = ""; //DB PASSWORD
-	$_CONFIG['dbname'] = ""; //DB NAME
+	$_CONFIG['user'] = "";  //DB USER
+	$_CONFIG['pass'] = "";  //DB PASSWORD
+	$_CONFIG['dbname'] = "";  //DB NAME
 
 	
 	global $db;
