@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /
+
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+php_flag display_errors on
+php_value error_reporting 6135
+
+<FilesMatch "^(.*)\.php$">
+php_flag zlib.output_compression On
+php_value zlib.output_compression_level 5
+</FilesMatch>
+
+RewriteRule ^([a-zA-Z0-9\_\-]+)/$ $1.php [nc]
+RewriteRule ^([a-zA-Z0-9\_\-\/]+[^\/][^.php])$ $1/ [nc,r]

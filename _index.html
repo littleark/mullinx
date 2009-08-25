@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/winxp.blue.css">
+		<script language="javascript" type="text/javascript">
+			document.write('<script language="javascript" type="text/javascript" src="http://' +
+							location.hostname + ':8880/javascript/newsfeeds.js.php"></' + 'script>\n');
+			document.write('<script language="javascript" type="text/javascript" src="http://' +
+							location.hostname + ':8880/javascript/promo-flags.js.php"></' + 'script>\n');
+		</script>
+</head>
+<body>
+<div class="screenLayout">
+
+<div class="headerContainer">
+	<div class="pageHeader">
+		<script language="javascript" type="text/javascript">
+			if (window.product_copyrights) {
+				document.write('<a href="http://www.parallels.com" target="_blank" class="topRightLogo"><img width="170" height="48" src="img/common/parallels_logo.gif" alt="parallels_logo.gif"/></a>');
+			}
+		</script>
+		<div id="topTxtBlock">
+			<a target="_blank" href="http://www.parallels.com/plesk/" title="Parallels&trade; Plesk Control Panel" class="topLogo"><img src="img/common/logo.gif" height="50" border="0" width="210" title="Parallels&trade; Plesk Control Panel"></a>
+			<script language="javascript" type="text/javascript">
+				if (window.product_copyrights) {
+					document.write('<span id="topCopyright"><a href="http://www.parallels.com" target="_blank">&copy; Copyright 1999-2008, Parallels<br/>All rights reserved</a></span>');
+				}
+				if (window.plesk_promo.virtuozzo) {
+					document.write('<span id="topTxtBanner"><a href="http://www.virtuozzo.com/en/splandingpage/" target="_blank">Discover <b>Parallels<br>Virtuozzo Containers</b></a></span>');
+				}
+			</script>
+		</div>
+	</div>
+</div>
+
+<div class="contentLayout">
+	<div class="contentContainer">
+		<div class="pageContent">
+			<div class="mainPageBanner">
+				<p class="welcomeText">Welcome</p>
+				<p class="descriptionText">
+					You see this page because you have set up your Web server for serving a new site, but have not uploaded the site content yet.
+				</p>
+				<p>You can do the following:</p>
+				<ul>
+					<li>Upload your Web site contents using FTP.</li>
+					<li>Install Web applications on your site: an image gallery, a discussion forum, a blog, an online store, a chat, and many other applications.</li>
+					<li>Create a Web site using <b><a href="http://www.parallels.com/sitebuilder" target="_blank">Parallels Plesk Sitebuilder</a></b> wizard, if this service is available from your hosting provider.</li>
+					<script language="javascript" type="text/javascript">
+						if (window.plesk_promo.fotolia) {
+							document.write('<li>Decorate your site with <b><a href="http://banners.parallels.com/b/relay.php?product=plesk&lang=en-US" target="_blank">images from Fotolia</a></b>.</li>');
+						}
+					</script>
+				</ul>
+				<hr>
+				<p>Login to Plesk control panel:
+					<script language="javascript" type="text/javascript">
+						document.write('<a href="https://' + location.hostname
+										+ ':8443">https://' + location.hostname +':8443</a>');
+					</script>
+				</p>
+			</div>
+			<div id="NFcontent">
+			<script language="javascript" type="text/javascript">
+				if (!window.NewsFeeds) {
+					document.write('<p>Plesk Control Panel ships with several test pages that you can use for checking the scripting features, testing database connections and mail sending. Click an icon to see test pages for different scripts:</p><div class="iconsArea"><a href="test/apacheasp/test.asp" class="icon" id="asp"><span>ASP</span></a>\n<a href="test/ssi/test.shtml" class="icon" id="ssi"><span>SSI</span></a>\n<a href="test/php/test.php" class="icon" id="php"><span>PHP</span></a>\n<a href="test/coldfusion/test.cfm" class="icon" id="coldfusion"><span>ColdFusion</span></a>\n<a href="test/perl/test.pl" class="icon" id="perl"><span>Perl</span></a>\n<a href="test/python/test.py" class="icon" id="python"><span>Python</span></a>\n<a href="test/fcgi/test.fcgi" class="icon" id="fcgi"><span>FastCGI</span></a>\n<a href="test/miva/test.mvc?" class="icon" id="miva"><span>Miva</span></a></div>');
+				} else {
+					document.write('<table width="100%" class="dLayout"><tbody><tr><td class="dColumn first"><div class="dBox"><div class="dBoxHeaderLayout"><div class="dBoxHeaderArea">Test Pages</div></div><div class="dBoxContent"><div id="testPages"><p>Plesk Control Panel ships with several test pages that you can use for checking the scripting features, testing database connections and mail sending. Click an icon to see test pages for different scripts:</p><div class="iconsArea"><a href="test/apacheasp/test.asp" class="icon" id="asp"><span>ASP</span></a>\n<a href="test/ssi/test.shtml" class="icon" id="ssi"><span>SSI</span></a>\n<a href="test/php/test.php" class="icon" id="php"><span>PHP</span></a>\n<a href="test/coldfusion/test.cfm" class="icon" id="coldfusion"><span>ColdFusion</span></a>\n<a href="test/perl/test.pl" class="icon" id="perl"><span>Perl</span></a>\n<a href="test/python/test.py" class="icon" id="python"><span>Python</span></a>\n<a href="test/fcgi/test.fcgi" class="icon" id="fcgi"><span>FastCGI</span></a>\n<a href="test/miva/test.mvc?" class="icon" id="miva"><span>Miva</span></a></div><div class="wrapper"><span></span></div></div></div></div></td><td class="dColumn"><div class="dBox show"><div class="dBoxHeaderLayout"><div class="dBoxHeaderArea">Top News</div></div><div class="dBoxContent"><div id="newsFeeds"></div><div class="wrapper"></div></div><div class="dBoxFooterLayout"><div class="dBoxFooterArea"><a href="javascript:NFgetList()" id="refreshList">Refresh List</a></div></div></div></td></tr></tbody></table>');
+					NFgetList();
+				}
+			</script>
+			<noscript>
+				<p>Plesk Control Panel ships with several test pages that you can use for checking the scripting features, testing database connections and mail sending. Click an icon to see test pages for different scripts:</p><div class="iconsArea"><a href="test/apacheasp/test.asp" class="icon" id="asp"><span>ASP</span></a>\n<a href="test/ssi/test.shtml" class="icon" id="ssi"><span>SSI</span></a>\n<a href="test/php/test.php" class="icon" id="php"><span>PHP</span></a>\n<a href="test/coldfusion/test.cfm" class="icon" id="coldfusion"><span>ColdFusion</span></a>\n<a href="test/perl/test.pl" class="icon" id="perl"><span>Perl</span></a>\n<a href="test/python/test.py" class="icon" id="python"><span>Python</span></a>\n<a href="test/fcgi/test.fcgi" class="icon" id="fcgi"><span>FastCGI</span></a>\n<a href="test/miva/test.mvc?" class="icon" id="miva"><span>Miva</span></a></div>
+			</noscript>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footerContainer" id="footerContainer">
+	<script language="javascript" type="text/javascript">
+		if (window.product_copyrights) {
+			document.write('<div class="footDescription">This page was generated by <a target="_blank" href="http://www.parallels.com/en/products/plesk/">Parallels&trade; Plesk Control Panel</a></div>');
+			document.write('<div class="poweredBy"><a target="_blank" href="http://www.parallels.com"><img src="img/common/parallels_powered.gif" title="Powered by Parallels&trade;"></a></div>');
+		}
+	</script>
+</div>
+
+</div>
+
+</body>
+</html>
