@@ -1,7 +1,7 @@
 <?
 	include("includes/config.php");
 	include("includes/common.php");
-	
+	//prova
 	$errors=array();
 	if($_POST['send_comment']) {
 		if($_POST['address']!='')
