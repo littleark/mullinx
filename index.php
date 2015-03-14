@@ -104,8 +104,8 @@
 					You can download <b>&mu;llinx</b> jQuery Plugin from these websites as well:
 				</p>
 				<ul>
+					<li><a href="https://github.com/littleark/mullinx" target="_blank">Github</a></li>
 					<li><a href="http://plugins.jquery.com/project/mullinx" target="_blank">jQuery Plugins</a></li>
-					<li><a href="http://code.google.com/p/mullinx/" target="_blank">Google Code</a></li>
 				</ul>
 				</div>
 			</p>
